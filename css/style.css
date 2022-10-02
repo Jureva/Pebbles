@@ -300,7 +300,7 @@ ul.cat li {
 }
 ol.type li {
 	display: inline-block;
-	margin-left: 20px;
+	/* margin-left: 20px;  */
 	text-transform: uppercase;
 }
 ol.type li a {
@@ -308,6 +308,7 @@ ol.type li a {
 	border: 2px solid #526cbb;
 	color: #526cbb;
 	padding: 10px 20px;
+	float: left;
 }
 ol.type li a.active {
 	background: #526cbb;
